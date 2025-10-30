@@ -6,7 +6,7 @@ function Books({ id, author, image, isSelected, onSelect }) {
     >
       {image ? <img className="book-image" src={image} /> : null}
       <div className="book-info">
-        {author ? <p className="book-price">{`by ${author}`}</p> : null}
+        {author ? <p className="book-author">{`by ${author}`}</p> : null}
       </div>
     </div>
   );

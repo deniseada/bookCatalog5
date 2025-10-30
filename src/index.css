@@ -43,7 +43,7 @@ h1 {
   flex: 1;
 }
 
-.book-price {
+.book-author {
   margin: 0;
   padding: 10px;
   text-align: center;
@@ -147,6 +147,31 @@ h1 {
   width: 200px;
   justify-content: center;
   align-items: center;
+}
+
+/* Filter styling */
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0.5rem 2rem;
+  margin-bottom: 20px;
+}
+
+.filter-label {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.filter-select {
+  min-width: 200px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #000;
 }
 
 .edit {
